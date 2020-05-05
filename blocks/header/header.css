@@ -1,0 +1,13 @@
+@import url("./__lang-link/");
+@import url("./__logo/");
+
+.header{
+  display: flex;
+  flex-flow: row no-wrap;
+  justify-content: space-between;
+  max-width: 984px;
+  max-height: 44px;
+  padding-top: 34px;
+  padding-bottom: 58px;
+  margin: auto;
+}
