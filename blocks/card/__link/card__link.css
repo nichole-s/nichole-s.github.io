@@ -1,0 +1,18 @@
+.card__link {
+    color: #FFF;
+    max-width: 456px;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+  }
+@media screen and (max-width: 768px) {
+  .card__link {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .card__link-text{
+    display: hidden;
+  }
+}

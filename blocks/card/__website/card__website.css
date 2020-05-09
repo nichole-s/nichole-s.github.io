@@ -1,0 +1,24 @@
+.card__website {
+    margin-top: 30px;
+    margin-bottom: 48px;
+  }
+  
+  .card__website_margin-large {
+    margin-top: 106px;
+  }
+  
+@media screen and (max-width: 768px){
+  .card__website {
+    max-width: 352px;
+  }
+  
+  .card__website_margin-large {
+    margin-top: 30px;
+  }
+}
+  
+@media screen and (max-width: 320px){
+  .card__website {
+    display: hidden;
+  }
+}

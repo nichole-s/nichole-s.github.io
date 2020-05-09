@@ -1,8 +1,32 @@
-@import url("./__title/");
-@import url("./__subtitle/");
-@import url("./__image/");
-@import url("./__caption/");
+@import url("./__title/lead__title.css");
+@import url("./__subtitle/lead__subtitle.css");
+@import url("./__image/lead__image.css");
+@import url("./__caption/lead__caption.css");
 
 .lead{
-    
+    margin: 0 auto;
+    text-align: center;
+    max-width: 984px;
+    min-height: 1005px;
+  }
+
+@media screen and (max-width: 1024px){
+  .lead{
+    max-width: 928px;
+    min-height: 962px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .lead{
+    max-width: 768px;
+    min-height: 862px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  .lead{
+    max-width: 320px;
+    min-height: 406px;
+  }
 }
