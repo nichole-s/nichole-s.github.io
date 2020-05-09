@@ -9,19 +9,19 @@
 }
 
 @media screen and (max-width: 1024px){
-  .root{
+  .page{
     max-width: 1024px;
   }
 }
 
 @media screen and (max-width: 768px){
-  .root{
+  .page{
     max-width: 768px;
   }
 }
 
 @media screen and (max-width: 320px){
-  .root{
+  .page{
     max-width: 320px;
   }
 }
