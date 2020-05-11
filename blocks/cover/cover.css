@@ -1,6 +1,6 @@
-@import url("./__item/cover__item.css");
-@import url("./__title/cover__title.css");
-@import url("./__subtitle/cover__subtitle.css");
+@import url('./__item/cover__item.css');
+@import url('./__title/cover__title.css');
+@import url('./__subtitle/cover__subtitle.css');
 
 .cover{
     max-width: 1184px;
@@ -8,7 +8,7 @@
     margin-bottom: 92px;
 }
 
-@media screen and (min-width: 769) and (max-width: 1024){
+@media screen and (min-width: 769px) and (max-width: 1024px){
     .cover{
         max-width: 1024px;
         min-height: 640px;
@@ -16,7 +16,7 @@
     }   
 }
 
-@media screen and (min-width: 321px) and (max-width: 768){
+@media screen and (min-width: 321px) and (max-width: 768px){
     .cover{
         max-width: 768px;
         min-height: 480px;
@@ -24,7 +24,7 @@
     }
 }
 
-@media screen and (max-width: 320){
+@media screen and (max-width: 320px){
     .cover{
         max-width: 320px;
         min-height: 200px;

@@ -1,11 +1,11 @@
-@import url("./__column/card__column.css");
-@import url("./__title/card__title.css");
-@import url("./__image/card__image.css");
-@import url("./__website/card__website.css");
-@import url("./__website/card__website_margin_big.css");
-@import url("./__link-text/card__link-text.css");
-@import url("./__link/card__link.css");
-@import url("./__text/card__text.css");
+@import url('./__column/card__column.css');
+@import url('./__title/card__title.css');
+@import url('./__image/card__image.css');
+@import url('./__website/card__website.css');
+@import url('./__website/card__website_margin_big.css');
+@import url('./__link-text/card__link-text.css');
+@import url('./__link/card__link.css');
+@import url('./__text/card__text.css');
 
 .card{
   margin-top: 80px;
@@ -20,13 +20,13 @@
   margin-top: 0;
 }
 
-@media screen and (min-width: 769px) and(max-width: 1024){
+@media screen and (min-width: 769px) and(max-width: 1024px){
   .card{
     max-width: 928px;
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768){
+@media screen and (min-width: 321px) and (max-width: 768px){
   .card{
     max-width: 720px;
   }
@@ -34,7 +34,9 @@
 /*Dear reviewer, I am not certain why the change in flex-direction is not working properly.
 I've submitted it this way because I was told if I submit it by today, I would have a few days to 
 complete it.*/
-@media screen and (max-width: 320){
+
+
+@media screen and (max-width: 320px){
   .card{
     display: flex;
     flex-direction: column;
@@ -46,4 +48,3 @@ complete it.*/
     margin-bottom: 0;
   }
 }
-

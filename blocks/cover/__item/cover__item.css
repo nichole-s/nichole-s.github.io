@@ -30,20 +30,20 @@
     opacity: .8;
 }
 
-@media screen and (min-width: 769) and (max-width: 1024){
+@media screen and (min-width: 769px) and (max-width: 1024px){
     .cover__item{
         width: 100%;
         object-fit: cover;
     }
 }
 
-@media screen and (min-width: 321px) and (max-width: 768){
+@media screen and (min-width: 321px) and (max-width: 768px){
     .cover__item{
         width: 100%;
     }
 }
 
-@media screen and (max-width: 320){
+@media screen and (max-width: 320px){
     .cover__item{
         width: 100%;
     }

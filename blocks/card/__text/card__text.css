@@ -9,13 +9,13 @@
   margin-bottom: 0;
 }
   
-@media screen and (max-width: 1024px){
+@media screen and (min-width: 769px) and (max-width: 1024px){
   .card__text {
     max-width: 456px;
   }
 }
   
-@media screen and (max-width: 768px){
+@media screen and (min-width: 321px) and (max-width: 768px){
   .card__text {
     max-width: 352px;
   }

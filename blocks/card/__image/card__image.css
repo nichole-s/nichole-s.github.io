@@ -10,14 +10,14 @@
   }
 }
   
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 321px) and (max-width: 768px){
   .card__photo {
     max-width: 340px;
     min-height: 340px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 320px){
   .card__photo {
     max-width: 320px;
     min-height: 320px;
