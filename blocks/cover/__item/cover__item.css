@@ -10,6 +10,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 0;
+    margin: 0;
 }
 
 .cover__item:before{
@@ -27,4 +28,24 @@
 
 .cover__item:hover:before{
     opacity: .8;
+}
+
+@media screen and (min-width: 769) and (max-width: 1024){
+    .cover__item{
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width: 768){
+    .cover__item{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320){
+    .cover__item{
+        width: 100%;
+    }
+    
 }

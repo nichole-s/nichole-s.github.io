@@ -3,26 +3,30 @@
 @import url("./__copyright/footer__copyright.css");
 
 .footer{
-    margin: 0 auto 24px;
+    margin: 0 48px 24px;
     max-width: 1184px;
     display: flex;
     justify-content: space-between;
 }
       
 @media screen and (max-width: 1024px) {
-    .cover {
+    .footer{
         max-width: 928px;
     }
 }
 
 @media screen and (max-width: 768px) {
-    .cover {
+    .footer{
         max-width: 720px;
+        margin: 0 24px 24px;
     }
 }
 
 @media screen and (max-width: 320px) {
-    .cover {
+    .footer{
+        flex-direction: column;
         max-width: 168px;
+        min-height: 198px;
+        margin: 0 auto 24px 16px;
     }
 }

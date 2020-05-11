@@ -5,23 +5,30 @@
 .cover{
     max-width: 1184px;
     min-height: 740px;
-    margin-left: 48px;
     margin-bottom: 92px;
 }
 
-@media screen and (max-width: 1024){
-    max-width: 1024px;
-    min-height: 640px;
+@media screen and (min-width: 769) and (max-width: 1024){
+    .cover{
+        max-width: 1024px;
+        min-height: 640px;
+        margin: 0 0 92px;
+    }   
 }
 
-@media screen and (max-width: 768){
-    max-width: 768px;
-    min-height: 480px;
-    margin-bottom: 88px;
+@media screen and (min-width: 321px) and (max-width: 768){
+    .cover{
+        max-width: 768px;
+        min-height: 480px;
+        margin: 0 0 88px;
+    }
 }
 
 @media screen and (max-width: 320){
-    max-width: 320px;
-    min-height: 200px;
-    margin-bottom: 64px;
+    .cover{
+        max-width: 320px;
+        min-height: 200px;
+        margin: 0 0 64px;
+    }
+    
 }

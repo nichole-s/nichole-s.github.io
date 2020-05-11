@@ -1,7 +1,7 @@
 .footer__links{
+    display: flex;
     list-style: none;
     padding: 0;
-    display: flex;
     margin: 0;
   }
   .footer__links:last-child{
@@ -10,6 +10,8 @@
 
 @media screen and (max-width: 320px){
   .footer__links{
-    flex-direction: row;
+    min-height: 136px;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }

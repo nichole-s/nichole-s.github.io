@@ -1,9 +1,0 @@
-.card__website_margin_big{
-    margin-top: 100px;
-}
-
-@media screen and (max-width: 768){
-    .card__website_margin_big{
-        margin-top: 0;
-    }
-}
