@@ -40,12 +40,14 @@
 @media screen and (min-width: 321px) and (max-width: 768px){
     .cover__item{
         width: 100%;
+        object-fit: cover;
     }
 }
 
 @media screen and (max-width: 320px){
     .cover__item{
         width: 100%;
+        object-fit: cover;
     }
     
 }
