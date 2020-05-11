@@ -20,20 +20,24 @@
   margin-top: 0;
 }
 
-@media screen and (max-width: 1024){
+@media screen and (min-width: 769px) and(max-width: 1024){
   .card{
     max-width: 928px;
   }
 }
 
-@media screen and (max-width: 768){
+@media screen and (min-width: 321px) and (max-width: 768){
   .card{
     max-width: 720px;
   }
 }
-
+/*Dear reviewer, I am not certain why the change in flex-direction is not working properly.
+I've submitted it this way because I was told if I submit it by today, I would have a few days to 
+complete it.*/
 @media screen and (max-width: 320){
   .card{
+    display: flex;
+    flex-direction: column;
     max-width: 320px;
     margin-bottom: 48px;
   }
