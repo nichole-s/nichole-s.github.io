@@ -13,7 +13,7 @@
     }
   }
   
-  @media screen and (min-width: 321px) and (max-width: 768px){
+  @media screen and (min-width: 426px) and (max-width: 768px){
     .card__title{
       max-width: 340px;
       font-size: 42px;
@@ -21,7 +21,7 @@
     }
   }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
   .card__title{
     max-width: 288px;
     font-size: 32px;

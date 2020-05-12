@@ -7,15 +7,16 @@
     margin: 0 0 12px;
   }
   
-@media screen and (min-width: 321px) and (max-width: 768px){
+@media screen and (min-width: 426px) and (max-width: 768px){
   .card__link-text{
     max-width: 352px;
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
   .card__link-text{
     visibility: hidden;
+    margin-bottom: 0;
   }
 }
 

@@ -1,4 +1,4 @@
-.card__text {
+.card__text{
     max-width: 484px;
     font-size: 16px; 
     line-height: 26px;
@@ -10,24 +10,24 @@
 }
   
 @media screen and (min-width: 769px) and (max-width: 1024px){
-  .card__text {
+  .card__text{
     max-width: 456px;
   }
 }
   
-@media screen and (min-width: 321px) and (max-width: 768px){
-  .card__text {
+@media screen and (min-width: 426px) and (max-width: 768px){
+  .card__text{
     max-width: 352px;
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
   .card__text{
     max-width: 288px;
     margin-left: 16px;
   }
 
   .card__text:last-child{
-    margin-bottom: 48px;
+    margin-bottom: 0px;
   }
 }

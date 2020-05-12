@@ -16,7 +16,7 @@
     }   
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px){
+@media screen and (min-width: 426px) and (max-width: 768px){
     .cover{
         max-width: 768px;
         min-height: 480px;
@@ -24,7 +24,7 @@
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
     .cover{
         max-width: 320px;
         min-height: 200px;

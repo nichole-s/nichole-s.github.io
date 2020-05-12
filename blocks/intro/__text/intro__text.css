@@ -7,14 +7,14 @@
     padding-left: 0;
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px){
+@media screen and (min-width: 426px) and (max-width: 768px){
     .intro__text{
         max-width: 720px;
         min-height: 182px;
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
     .intro__text{
         max-width: 288px;
         min-height: 468px;

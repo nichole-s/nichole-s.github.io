@@ -5,13 +5,13 @@
     line-height: 22px;
     margin: 0;
   }
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 768px){
   .card__link {
     max-width: 352px;
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
   .card__link{
     visibility: hidden;
   }
